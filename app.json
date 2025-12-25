@@ -1,0 +1,61 @@
+{
+    "name": "File Store Bot",
+    "description": "A Telegram Files Store Bot to protect your Files ",
+    "keywords": [
+        "telegram",
+        "files",
+        "store",
+        "bot"
+    ],
+    "repository": "https://github.com/VJBots/File-Store-Bot-With-Url-Shortner",
+    "website": "https://telegram.dog/VJ_Botz",
+    "success_url": "https://t.me/VJ_Bot_Disscussion",
+    "logo": "https://telegra.ph/file/b39906f572822b3ab82c8.jpg",
+    "env": {
+        "API_ID": {
+            "description": "32462314"
+        },
+        "API_HASH": {
+            "description": "7a5dd2ac018c1088034aea94473b4b2b"
+        },
+        "BOT_TOKEN": {
+            "description": "8528069587:AAFqqSVoyE96CYRca8lYalLAXBDyhReaeDE"
+        },
+        "BOT_USERNAME": {
+            "description": "Downloait_bot"
+        },
+        "DB_CHANNEL": {
+            "description": "-1003521806578"
+        },
+        "SHORTLINK_URL": {
+            "description": "Your URL Shortner Domain Name"
+        },
+        "SHORTLINK_API": {
+            "description": "Your Url Shortner Api Token"
+        },
+        "BOT_OWNER": {
+            "description": "8310872137"
+        },
+        "DATABASE_URL": {
+            "description": "mongodb+srv://saidhanush1029_db_user:Zw87a3PgdAk2skeq@cluster0.dsnqf6d.mongodb.net/?appName=Cluster0"
+        },
+        "UPDATES_CHANNEL": {
+            "description": "-1003486697709",
+            "required": false
+        },
+        "LOG_CHANNEL": {
+            "description": "-1003612381912"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
