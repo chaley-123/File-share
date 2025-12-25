@@ -1,5 +1,5 @@
 <h1 align="center">
-  VJ FILE STORE BOT
+	FILE STORE BOT
 </h1>
 
 
